@@ -24,7 +24,7 @@ jobs:
 
       with:
 
-        app-name: 'cmst385-spaton1'
+        app-name: 'cmst385-spaton3037413'
 
         slot-name: 'production'
 
