@@ -1,0 +1,198 @@
+body, html {
+	height:  100%;
+	width:  100%;
+	margin: 0;
+}
+
+* {
+	font-family:  Verdana, Arial, sans-serif;
+}
+
+#home-background {
+  background-image: url("https://static.onecms.io/wp-content/uploads/sites/6/2020/09/21/SE_EW_2020.jpg");
+  height:  90%;
+  margin: 0;
+  padding:  0;
+  background-position:  center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+}
+
+#news-background {
+  background-color: #34403E;
+  background-size: 100% auto;
+}
+
+#music-background {
+  background-image: url("https://media.npr.org/assets/img/2020/09/21/_images_uploads_gallery_img_1400_wide-a6f157c460e3081bbb58fd02e48ff8349620fdc2.jpg");
+  height:  90%;
+  margin: 0;
+  padding:  0;
+  background-position:  center;
+  background-repeat:  no-repeat;
+  background-size:  cover;
+}
+
+#logo {
+	padding-top: 20px;
+	padding-left:  20px;
+}
+
+.title-div {
+	display:  flex;
+	flex-direction: column;
+	height:  500px;
+	width:  100%;
+}
+
+.title {
+	color:  #fff;
+	font-size: 2.8em;
+	margin-top: auto;
+}
+
+/*h1 color, font family, center alignment, font size*/
+h1 {
+	color:  #fff;
+	font-family:  Verdana, Arial, sans-serif;
+	font-size: 1.9em;
+	text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+	.title {
+		font-size:  1.9em;
+	}
+}
+
+/*h2 color, font family, center alignment, font size*/
+h2 {
+	color:  #fff;
+	font-family:  Verdana, Arial, sans-serif;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+h3 {
+	color:  #B8CFED;
+	font-family:  Verdana, Arial, sans-serif;
+	font-size: 1em;
+	text-align: left;
+	line-height: 22px;
+	margin: 20px;
+	padding: 20px
+}
+
+/*p color, font-family, font-size, margin*/
+p {
+	color: #DCEDFF;
+	font-family:  Verdana, Arial, sans-serif;
+	font-size: .8em;
+	text-align: left;
+	margin: 20px;
+	padding-left: 20px;
+}
+
+ol {
+	color: #DCEDFF;
+	font-family:  Verdana, Arial, sans-serif;
+	font-size: .8em;
+	margin-left: 30px;
+	padding-left: 30px;
+}
+
+.nav-bar {
+	list-style:  none;
+	float:  right;
+}
+
+a {
+	color:  #fff01f; /*neon yellow*/
+	text-decoration: none;
+}
+
+a:hover {
+	color:  #94B0DA;
+}
+
+#link1 {
+	padding:20px;
+	float:left;
+}
+
+#link2 {
+	padding:20px;
+	float:left;
+}
+
+#link3 {
+	padding:20px;
+	float:left;
+}
+
+/*grid across for albums*/
+.grid-container {
+	width: 100%;
+	display: grid;
+	grid-template-columns:  auto auto auto auto auto;
+	padding-left: 20px;
+	margin-left: 20px;
+	padding-right: 20px;
+	grid-column-gap: 20px;
+}
+
+.grid-item {
+	padding: 10px;
+	width: 75%;
+}
+
+.album {
+	width: 90%;
+}
+
+/*section for text under image background*/
+.copy {
+	height: auto;
+	background-color: #343F3E;
+	padding: 30px;
+}
+
+.thumbnail {
+	margin: 20px;
+	padding-left: 20px;
+	float: left;
+}
+
+#news-stories {
+	padding-bottom: 40px;
+	width: 90%;
+	text-align: left;
+}
+
+button {
+	margin-left: 41px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #34403E;
+	border: none;
+  cursor: pointer;
+}
+
+
+footer {
+  background-color: #343F3E;
+  height: 200px;
+  margin: 0;
+  padding:  0;
+  bottom: 0;
+}
+
+.social-links {
+	margin-left: 20px;
+	padding-top: 20px;
+}
+
+.icon {
+	padding: 10px;
+}
