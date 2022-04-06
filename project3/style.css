@@ -152,9 +152,10 @@ a:hover {
 
 /*section for text under image background*/
 .copy {
-	height: auto;
-	background-color: #343F3E;
-	padding: 30px;
+    height: auto;
+    margin-left: -35px;
+    background-color: #343F3E;
+    padding: 30px;
 }
 
 .thumbnail {
